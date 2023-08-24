@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
+:root {
+  /* App Colors */
+  /* 한단계 더 추상화 해서 사용 */
+  --color-primary: var(--color-black);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /*basic Colors */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  --color--white: #ffffff;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  --color-black: #000000;
 
-.App-link {
-  color: #61dafb;
-}
+  --color-mustard: #efc056;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --color-skyBlue: #c3fcf2;
+
+  --color-darkGreen: #007664;
+
+  --color-pink: #ec7ef6;
+
+  --color-blue: #00bed4;
+
+  --color-green: #00b031;
+
+  --color-yellow: #ebc812;
+
+  --color-red: #fb3939;
+
+  --color-gray-1: #e0e0e0;
+
+  --color-gray-2: #bdbdbd;
+
+  --color-gray-3: #828282;
+
+  --color-gray-4: #4f4f4f;
+
+  --color-gray-5: #333;
 }
